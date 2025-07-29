@@ -27,7 +27,7 @@ const Footer = () => {
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a
-              href="https://forms.gle/qe4rcU5a7sR9AvHLA" target="_blank" rel="noopener noreferrer"
+              href="/schedule" target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-sky-700 hover:bg-blue-700 text-white px-6 py-3 rounded-lg text-sm font-medium shadow transition"
             >
               <FiCalendar className="text-lg" />
