@@ -47,7 +47,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img
-            src="./public/assets/Texspire Horizontal Logo.svg"
+            src="/assets/Texspire Horizontal Logo.svg"
             alt="Texspire"
             className={`transition-all duration-200 ${scrolled ? "h-10" : "h-14"}`}
           />
