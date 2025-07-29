@@ -12,7 +12,6 @@ import Subscriptions from "../pages/Subscriptions";
 import Navbar from "../components/Navbar";
 import TestimonialsTickerSection from "../components/TestimonialTickerSection";
 import FadeInSection from "../components/FadeInSection";
-import TestimonialStack from "../components/TestimonialStack";
 
 const Home = () => {
   return (
@@ -49,10 +48,6 @@ const Home = () => {
 
       <section id="benefits">
         <FadeInSection><Benefits /></FadeInSection>
-      </section>
-
-      <section id="testimoials2">
-        <TestimonialStack />
       </section>
 
       <section id="subscriptions">
