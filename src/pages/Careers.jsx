@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { TfiClose } from "react-icons/tfi";
-import Navbar from "../components/Navbar";
 
 const jobs = [
   {
