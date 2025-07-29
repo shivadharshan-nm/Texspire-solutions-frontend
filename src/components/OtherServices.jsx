@@ -1,6 +1,6 @@
 import React from 'react';
 
-const singleImage = './src/assets/ChatGPT Image Jul 21, 2025, 12_38_39 PM (1).png';
+const singleImage = './public/assets/ChatGPT Image Jul 21, 2025, 12_38_39 PM (1).png';
 
 const OtherServices = () => {
   return (
