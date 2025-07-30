@@ -86,7 +86,7 @@ const Hero = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-12">
           <a
-            href="/services"
+            href="#services"
             className="px-6 py-3 bg-white border shadow rounded-lg text-sm font-medium hover:bg-gray-50"
           >
             Our Services

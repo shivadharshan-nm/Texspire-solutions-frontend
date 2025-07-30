@@ -11,7 +11,6 @@ import Faq from "../pages/Faq";
 import Subscriptions from "../pages/Subscriptions";
 import Navbar from "../components/Navbar";
 import TestimonialsTickerSection from "../components/TestimonialTickerSection";
-import FadeInSection from "../components/FadeInSection";
 
 const Home = () => {
   return (
@@ -19,52 +18,50 @@ const Home = () => {
       
       <Navbar />
       <section id="hero">
-        <FadeInSection><Hero /></FadeInSection>
+        <Hero />
       </section>
 
       <section id="banner">
-        <FadeInSection><Banner /></FadeInSection>
+        <Banner />
       </section>
 
       <section id="services">
-        <FadeInSection><Services /></FadeInSection>
+        <Services />
       </section>
 
       <section id="other-services">
-        <FadeInSection><OtherServices /></FadeInSection>
+        <OtherServices />
       </section>
 
       <section id="ai-products">
-        <FadeInSection><AiProducts /></FadeInSection>
+        <AiProducts />
       </section>
 
       <section id="projects">
-        <FadeInSection><Projects /></FadeInSection>
+        <Projects />
       </section>
 
       <section id="about">
-        <FadeInSection><About /></FadeInSection>
+        <About />
       </section>
 
       <section id="benefits">
-        <FadeInSection><Benefits /></FadeInSection>
+        <Benefits />
       </section>
 
       <section id="subscriptions">
-        <FadeInSection><Subscriptions /></FadeInSection>
+        <Subscriptions />
       </section>
 
       <section id="testimonials">
-        <FadeInSection><TestimonialsTickerSection /></FadeInSection>
+        <TestimonialsTickerSection />
       </section>
 
       <section id="faq">
-        <FadeInSection><Faq /></FadeInSection>
+        <Faq />
       </section>
 
-      <FadeInSection>
-        <Footer />
-      </FadeInSection>
+      <Footer />
     </main>
   );
 };

@@ -20,7 +20,7 @@ export default function Navbar() {
         paddingBottom: isScrolled ? 8 : 24,
         paddingLeft: isScrolled ? 14 : 24,
         paddingRight: isScrolled ? 8 : 24,
-        backgroundColor: isScrolled ? "#ffffff" : "rgba(255,255,255,0)", // <- fixed backgroundColor animatable
+        backgroundColor: isScrolled ? "#ffffff" : "rgba(255,255,255,0)", 
         boxShadow: isScrolled ? "0 4px 12px rgba(0,0,0,0.06)" : "none",
         transition: { ease: "easeOut", duration: 0.2 },
       });
